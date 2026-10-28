@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nacho Ranch – Cañillas</title>
+<meta name="description" content="Camperplaatsen in Cañillas, Spanje. Website in aanbouw.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --night: #15213b;
+    --sand: #ecdfc0;
+    --amber: #f2a33a;
+    --muted: #a9b1c6;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--night);
+    color: var(--sand);
+    font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
+    min-height: 100vh;
+  }
+  .hero {
+    display: block;
+    width: 100%;
+    height: 68vh;
+    min-height: 280px;
+    object-fit: cover;
+    object-position: center 40%;
+  }
+  main {
+    padding: 2.5rem 7vw 4rem;
+    max-width: 62rem;
+  }
+  h1 {
+    font-size: clamp(2.8rem, 9vw, 6.5rem);
+    line-height: 0.95;
+    margin: 0 0 1rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+  .place {
+    font-size: clamp(1.15rem, 2.6vw, 1.6rem);
+    margin: 0 0 2rem;
+    color: var(--amber);
+  }
+  .status p {
+    margin: 0 0 0.35rem;
+    font-size: 1.05rem;
+    color: var(--muted);
+    max-width: 40rem;
+  }
+  .status p:first-child { color: var(--sand); font-size: 1.2rem; }
+  .coords { margin: 2rem 0 0; font-size: 1rem; }
+  .coords a {
+    color: var(--sand);
+    text-decoration-color: var(--amber);
+    text-underline-offset: 0.25em;
+  }
+  .coords a:hover, .coords a:focus-visible { color: var(--amber); }
+  a:focus-visible { outline: 2px solid var(--amber); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<img class="hero" src="nacho-ranch.jpg" width="1583" height="1170" alt="Gele finca met cipres en pijnboom, twee ezels grazen achter een houten hek">
+<main>
+  <h1>Nacho Ranch</h1>
+  <p class="place">Cañillas, Spanje</p>
+  <div class="status">
+    <p>Camperplaatsen: website in aanbouw.</p>
+    <p>Camper pitches: website under construction.</p>
+    <p>Plazas para autocaravanas: web en construcción.</p>
+  </div>
+  <p class="coords"><a href="https://www.google.com/maps?q=37.461750,-2.727528" target="_blank" rel="noopener">37°27′42.3″N 2°43′39.1″W op de kaart</a></p>
+</main>
+</body>
+</html>
